@@ -1,3 +1,24 @@
+.topPhoto{
+  position: relative;
+}
+
+
+.topPhoto h2 {
+  position: absolute;
+  color: white;
+  font-size: 2em;
+  bottom: 0;
+  left: 0;
+  background: #495595;
+  border-radius: 5px;
+  line-height: 1.2;
+  padding: 5px 8px;
+}
+
+.topPhoto img {
+  width: 100%;
+}
+
 .rink {
 text-align:center;
 margin-top: 15px;
