@@ -3,3 +3,10 @@ text-align:center;
 margin-top: 15px;
 margin-bottom: 20px;
 }
+
+h3 {
+  margin-top: 20px;
+  height: 20px;
+  color: #994da8;
+  font-weight: 100;
+}
