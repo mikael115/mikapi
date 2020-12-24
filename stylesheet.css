@@ -26,6 +26,12 @@ margin-top: 15px;
 margin-bottom: 20px;
 }
 
+.rink img{
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+}
+
 h3 {
   margin-top: 20px;
   height: 20px;
