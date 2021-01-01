@@ -1,23 +1,60 @@
+.header-list a:link,.header-list a:active,.header-list a:visited{color: black;}
+.header-list a:hover {
+  color: #495595;
+  text-decoration:none
+}
+
+header {
+  background-color: #f3f3f3; /*#f3f3f3*/
+  height: 60px;
+}
+.headerIcon {
+  float: left;
+}
+.headerIcon img {
+  height: 60px;
+  width: auto;
+}
+.header-list {
+  height:60px;
+  width: 100%;
+}
+.header-list ul {
+  margin-left: 40px;
+}
+.header-list li {
+  list-style: none;
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+  padding: 18px 10px;
+}
+/*ヘッダーのリンクにカーソルを合わせるとボックス下にラインが出る*/
+.header-list li:hover {
+  box-shadow: inset 0 -3px 0 0 #4477c9;
+}
+
+
+
+
 .topPhoto{
   position: relative;
   width: 100%;
 }
-
-
-.topPhoto h2 {
-  position: absolute;
-  color: white;
-  font-size: 2em;
-  bottom: 0;
-  left: 0;
-  background: #495595;
-  border-radius: 5px;
-  line-height: 1.2;
-  padding: 5px 8px;
-}
-
 .topPhoto img {
   width: 100%;
+}
+
+.daimei {
+  background-color: #515fa0;
+  padding: 25px 60px 20px 50px;
+  margin: 30px 30px 30px 30px;
+  border: 1px solid #495595;
+  border-radius: 10px;
+}
+
+.daimei h1 {
+  color: white;
 }
 
 .rink {
@@ -30,11 +67,16 @@ margin-bottom: 20px;
   width: 100%;
   max-width: 500px;
   height: auto;
+  box-shadow: 0 2px 3px 0px rgba(0,0,0,.1);
+  margin: 10px;
 }
 
 h3 {
-  margin-top: 20px;
-  height: 20px;
-  color: #994da8;
+  color: #495595;
   font-weight: 100;
+  border-left: 6px solid #9393c6;
+  border-bottom: 2px solid #9393c6;
+  padding-bottom: 6px;
+  padding-left: 15px;
+  margin: 50px 0px 10px 0px;
 }
