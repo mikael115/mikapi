@@ -5,7 +5,9 @@
 }
 li {list-style: none;}
 ul {padding: 0px;}
-h1{margin: 0;}
+h1 {margin: 0;}
+h5 {margin: 0 0 4px 0;
+    font-size: 120%;}
 
 header {
   background-color: #f3f3f3;
@@ -49,7 +51,7 @@ header {
   border: 1.5px solid #495595;
   border-radius: 2px;
   padding: 6px;
-  margin: 40px 30px 30px 30px;
+  margin: 50px 20px 60px 20px;
 }
 .title h1 {
   color: #3f5c8c;
@@ -77,8 +79,22 @@ h3 span {
 .thin {
   font-weight: 400;
   font-size: 1.8em;
-
 }
+
+
+.text {
+  line-height: 25px;
+  padding: 20px 10px 10px 10px;
+}
+h5 {
+  color: #cc3377;
+}
+.text span {
+  font-size: 105%;
+  font-weight: 450;
+  color: #495595;
+}
+
 
 .news {
   margin: 25px 0px 50px 0px;
