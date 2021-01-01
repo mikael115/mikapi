@@ -5,6 +5,7 @@
 }
 li {list-style: none;}
 ul {padding: 0px;}
+h1{margin: 0;}
 
 header {
   background-color: #f3f3f3;
@@ -43,18 +44,20 @@ header {
   width: 100%;
 }
 
-.daimei {
-  background-color: #515fa0;
-  padding: 15px;
-  margin: 30px 20px 20px 20px;
-  border: 1px solid #495595;
-  border-radius: 10px;
-  text-align: center;
+/* ボーダーより薄め#515fa0 */
+.titlebox {
+  border: 1.5px solid #495595;
+  border-radius: 2px;
+  padding: 6px;
+  margin: 40px 30px 30px 30px;
 }
-
-.daimei h1 {
-  color: white;
+.title h1 {
+  color: #3f5c8c;
   font-size: 35px;
+  border: 1.5px solid #495595;
+  border-radius: 2px;
+  text-align: center;
+  padding: 15px;
 }
 
 
