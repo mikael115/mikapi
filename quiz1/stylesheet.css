@@ -43,16 +43,25 @@ header {
 
 
 
-.tyoginyan {
+.choginyan {
   text-align:center;
   margin-top: 15px;
   margin-bottom: 25px;
 }
+.choginyan img {
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+}
+
 .rink {
   text-align:center;
   margin-top: 15px;
 }
 .rink img {
+  width: 100%;
+  max-width: 350px;
+  height: auto;
   box-shadow: 0 2px 3px 0px rgba(0,0,0,.1);
 }
 
