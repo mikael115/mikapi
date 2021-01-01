@@ -6,6 +6,9 @@
 li {
   list-style: none;
 }
+ul {
+  padding: 0px;
+}
 
 header {
   background-color: #f3f3f3;
@@ -23,7 +26,7 @@ header {
   width: 100%;
 }
 .header-list ul {
-  margin-left: 40px;
+  margin-left: 80px;
 }
 .header-list li {
   display: inline-block;
@@ -85,6 +88,9 @@ h3 span {
   background-color: white;
   line-height: 28px;
   background-color: #f3f3f3;
+}
+#newsbox ul {
+  padding: 10px 16px;
 }
 #newsbox li span {
   color: #4c5a9b;
