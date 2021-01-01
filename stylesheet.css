@@ -74,6 +74,11 @@ h3 span {
   font-size: 18px;
   padding-left: 30px;
 }
+.thin {
+  font-weight: 400;
+  font-size: 1.8em;
+
+}
 
 .news {
   margin: 25px 0px 50px 0px;
@@ -97,9 +102,9 @@ h3 span {
 
 
 .rink {
-text-align:center;
-margin-top: 15px;
-margin-bottom: 20px;
+  text-align:center;
+  margin-top: 15px;
+  margin-bottom: 20px;
 }
 
 .rink img{
