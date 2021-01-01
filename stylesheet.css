@@ -3,6 +3,9 @@
   color: #319b86;
   text-decoration:none
 }
+li {
+  list-style: none;
+}
 
 header {
   background-color: #f3f3f3;
@@ -23,7 +26,6 @@ header {
   margin-left: 40px;
 }
 .header-list li {
-  list-style: none;
   display: inline-block;
   font-size: 16px;
   color: black;
@@ -46,8 +48,8 @@ header {
 
 .daimei {
   background-color: #515fa0;
-  padding: 20px;
-  margin: 20px;
+  padding: 15px;
+  margin: 30px 20px 20px 20px;
   border: 1px solid #495595;
   border-radius: 10px;
   text-align: center;
@@ -58,19 +60,6 @@ header {
   font-size: 35px;
 }
 
-.rink {
-text-align:center;
-margin-top: 15px;
-margin-bottom: 20px;
-}
-
-.rink img{
-  width: 100%;
-  max-width: 450px;
-  height: auto;
-  box-shadow: 0 2px 3px 0px rgba(0,0,0,.1);
-  margin: 10px;
-}
 
 h3 {
   color: #495595;
@@ -84,4 +73,36 @@ h3 {
 h3 span {
   font-size: 18px;
   padding-left: 30px;
+}
+
+.news {
+  margin: 25px 0px 50px 0px;
+}
+#newsbox {
+  overflow: auto;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  line-height: 28px;
+  background-color: #f3f3f3;
+}
+#newsbox li span {
+  color: #4c5a9b;
+  font-weight: bold;
+  border-bottom: 1px solid #4c5a9b;
+}
+
+
+.rink {
+text-align:center;
+margin-top: 15px;
+margin-bottom: 20px;
+}
+
+.rink img{
+  width: 100%;
+  max-width: 450px;
+  height: auto;
+  box-shadow: 0 2px 3px 0px rgba(0,0,0,.1);
+  margin: 10px;
 }
