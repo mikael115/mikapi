@@ -1,11 +1,11 @@
 .header-list a:link,.header-list a:active,.header-list a:visited{color: black;}
 .header-list a:hover {
-  color: #495595;
+  color: #319b86;
   text-decoration:none
 }
 
 header {
-  background-color: #f3f3f3; /*#f3f3f3*/
+  background-color: #f3f3f3;
   height: 60px;
 }
 .headerIcon {
@@ -36,7 +36,6 @@ header {
 
 
 
-
 .topPhoto{
   position: relative;
   width: 100%;
@@ -47,14 +46,16 @@ header {
 
 .daimei {
   background-color: #515fa0;
-  padding: 25px 60px 20px 50px;
-  margin: 30px 30px 30px 30px;
+  padding: 20px;
+  margin: 20px;
   border: 1px solid #495595;
   border-radius: 10px;
+  text-align: center;
 }
 
 .daimei h1 {
   color: white;
+  font-size: 35px;
 }
 
 .rink {
@@ -65,7 +66,7 @@ margin-bottom: 20px;
 
 .rink img{
   width: 100%;
-  max-width: 500px;
+  max-width: 450px;
   height: auto;
   box-shadow: 0 2px 3px 0px rgba(0,0,0,.1);
   margin: 10px;
@@ -79,4 +80,8 @@ h3 {
   padding-bottom: 6px;
   padding-left: 15px;
   margin: 50px 0px 10px 0px;
+}
+h3 span {
+  font-size: 18px;
+  padding-left: 30px;
 }
