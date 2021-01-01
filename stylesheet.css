@@ -3,12 +3,8 @@
   color: #319b86;
   text-decoration:none
 }
-li {
-  list-style: none;
-}
-ul {
-  padding: 0px;
-}
+li {list-style: none;}
+ul {padding: 0px;}
 
 header {
   background-color: #f3f3f3;

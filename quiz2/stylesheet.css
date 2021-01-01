@@ -6,6 +6,42 @@ p {
   font-size: large;
   font-weight: bold;
 }
+.header-list a:link,.header-list a:active,.header-list a:visited{color: black;}
+.header-list a:hover {
+  color: #319b86;
+  text-decoration:none
+}
+li {list-style: none;}
+ul {padding: 0px;}
+
+header {
+  background-color: #f3f3f3;
+  height: 60px;
+}
+.headerIcon {
+  float: left;
+}
+.headerIcon img {
+  height: 60px;
+  width: auto;
+}
+.header-list {
+  height:60px;
+  width: 100%;
+}
+.header-list ul {
+  margin-left: 80px;
+}
+.header-list li {
+  display: inline-block;
+  font-size: 16px;
+  color: black;
+  padding: 18px 10px;
+}
+/*ヘッダーのリンクにカーソルを合わせるとボックス下にラインが出る*/
+.header-list li:hover {
+  box-shadow: inset 0 -3px 0 0 #4477c9;
+}
 
 .explanation {
   font-size: 17px;
