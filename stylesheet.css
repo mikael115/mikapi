@@ -23,6 +23,7 @@ header {
 .header-list {
   height:60px;
   width: 100%;
+  padding-left: 70px;
 }
 .header-list a {
   display: inline-block;
