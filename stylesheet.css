@@ -56,7 +56,6 @@ header {
 }
 .title h1 {
   color: #3f5c8c;
-  font-size: 35px;
   border: 1.5px solid #495595;
   border-radius: 2px;
   text-align: center;
@@ -66,7 +65,6 @@ header {
 
 h3 {
   color: #495595;
-  font-weight: 100;
   border-left: 6px solid #9393c6;
   border-bottom: 2px solid #9393c6;
   padding-bottom: 6px;
